@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+ 
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+  <title>Lamps Landing Page</title>
+</head>
+
+<body>
+  <div class="first-container">
+    <!-- -------------Nav bar----------- -->
+    <nav class="navbar">
+      <img src="./vueLamp_img/images/menu.png" alt="Menu icon" class="menu-icon" />
+      <img src="./vueLamp_img/images/logo.png" alt="" class="logo" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href=".second-container">Features</a></li>
+        <li><a href=".third-container">Latest</a></li>
+        <li>
+          <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_align-items" target="_blank">Reviews</a>
+        </li>
+      </ul>
+      <button type="button" id="toggler" onclick="togglebtn()">
+        <span></span>
+  </div>
+  </button>
+  </nav>
+  <!-- --------------------light setup -------------------------->
+  <div class="container-lamp">
+    <img src="./vueLamp_img/images/lamp.png" alt="lamp" class="lamp" />
+
+    <img src="./vueLamp_img/images/light.png" alt="light" class="light" id="light" />
+  </div>
+  <!-- ------------------text------------------ -->
+  <div class="text-container">
+    <h1>We <span class="light-letter" onmouseout="light_off()" onmouseover="light_on()">light</span> the way<br>
+      to the home you'll love</h1>
+    <p>Simplify your search with exceptional lighting styles and <br>unmatched service from award-winning experts</p>
+    <a href="#">Explore More</a>
+  </div>
+  </div>
+  <div class="second-container">
+    <!----------------------- features section---------------- -->
+    <div class="feature-container">
+     
+      <div class="col1">
+        <h2>Why choose Us</h2>
+      
+        <ul>
+          <li>Largest Decorative lighting range in India</li>
+          <li>Electricity saving </li>
+          <li>Modern Designs by In-House Designers</li>
+          <li>Installation Service all around India</li>
+          
+          <li>Product 360 &#176 view online</li>
+          <li>Easy Returns and Replacements</li>
+         
+        </ul>
+      </div>
+      <div class="col2">
+        <img src="./vueLamp_img/images/Copy of Copy of Copy of Untitled (1).png" alt="lamps">
+      </div>
+    </div>
+  </div>
+  <div class="third-container">
+    <h2>In Trending</h2>
+    <div class="products">
+      <div class="product-1">
+        <div class="product-card">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="https://whiteteak.com/media/catalog/product/cache/0d875206427c6c524675c9a66169f5be/t/l/tl48-10001_8__1.jpg" alt="">
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">Table Lamps</span>
+            <h4><a href="">Table lamp</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+            <div class="product-bottom-details">
+              <div class="product-price"><small>$96.00</small>$230.99</div>
+              <div class="product-links">
+                <a href=""><i class="fa fa-heart"></i></a>
+                <a href=""><i class="fa fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-2 ">
+        <div class="product-card">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="https://whiteteak.com/media/catalog/product/cache/f80719545836a4aafbaf5de5757afc96/h/l/hl58-10004_18_copy.jpg" alt="">
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">Chandeliers</span>
+            <h4><a href="">Ceiling Chandeliers</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+            <div class="product-bottom-details">
+              <div class="product-price"><small>$196.00</small>$439.99</div>
+              <div class="product-links">
+                <a href=""><i class="fa fa-heart"></i></a>
+                <a href=""><i class="fa fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-3 ">
+        <div class="product-card">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="https://whiteteak.com/media/catalog/product/cache/0d875206427c6c524675c9a66169f5be/w/l/wl48-10006_2_.jpg" alt="">
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">Wall Lights</span>
+            <h4><a href="">Elated Build-in Wall LED </a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+            <div class="product-bottom-details">
+              <div class="product-price"><small>$60.00</small>$189.99</div>
+              <div class="product-links">
+                <a href=""><i class="fa fa-heart"></i></a>
+                <a href=""><i class="fa fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Animated counter -->
+  <div class="fourth-container">
+    <h2> Across The World</h2>
+    </header>
+    <section class="counters" >
+      <div class="container">
+        <div>
+          <i class="fas fa-globe"></i>
+          <div class="counter" data-target="15">0</div>
+          <h3>Countries</h3>
+        </div>
+        <div>
+          <i class="fas fa-city"></i>
+          <div class="counter" data-target="40">0</div>
+          <h3>Cities</h3>
+        </div>
+        <div>
+          <i class="fas fa-store-alt"></i>
+          <div class="counter" data-target="20">0</div>
+          <h3>Service Centres</h3>
+        </div>
+        <div>
+          <i class="fas fa-chart-line"></i>
+          <div class="counter" data-target="5000">0</div>
+          <h3>Products sold</h3>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- testimonial -->
+  <div class="testimonial">
+    <h2> Our Customers Reviews</h2>
+    <div class="fifth-container">
+     
+    
+      <div class="first">
+        <img src=".\vueLamp_img\images\ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="Avatar" style="width:90px;height:140px">
+        <div class="quoteblock">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero temporibus excepturi ex laudantium
+              sint!</p>
+          </blockquote>
+          <footer> <cite><span>Chris Fox</span>
+              <div>CEO at Mighty Schools.</div>
+            </cite>
+          </footer>
+        </div>
+      </div>
+      <div class="first">
+        <img src="https://source.unsplash.com/random?portrait/90px*150px" alt="Avatar" style="width:90px;height:140px">
+        <div class="quoteblock">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero temporibus excepturi ex laudantium
+              sint!</p>
+          </blockquote>
+          <footer> <cite><span>Aelan</span>
+              <div>Manager at Star Resort</div>
+            </cite>
+          </footer>
+        </div>
+      </div>
+      <div class="first">
+        <img src=".\vueLamp_img\images\michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Avatar" style="width:90px;height:140px">
+        <div class="quoteblock">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero temporibus excepturi ex laudantium
+              sint!</p>
+          </blockquote>
+          <footer> <cite><span>Shelan</span>
+              <div>Founder of Planning Pros(Event Management Company)</div>
+            </cite>
+          </footer>
+        </div>
+      </div>
+    
+    
+     
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- -----------------footer---------------- -->
+  <div class="sixth-container">
+<div class="footer">
+  <!-- <div class="heading">
+    <h2>ABCDEF<sup>&trade;</sup></h2>
+  </div> -->
+  <div class="content">
+    <div class="services">
+      <h4>Services</h4>
+      <p><a href="#">Table Lamps</a></p>
+      <p><a href="#">Chandliers</a></p>
+      <p><a href="#">Hanging lamps</a></p>
+      <p><a href="#">Decorative lights</a></p>
+    </div>
+    <div class="social-media">
+      <h4>Social</h4>
+      <p>
+        <a href="https://www.linkedin.com/in/sanket-bodke-995b5b205/"
+          ><i class="fab fa-linkedin"></i> Linkedin</a
+        >
+      </p>
+      <p>
+        <a href="https://twitter.com/Sanket46171296"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+      </p>
+      
+      
+      
+      <p>
+        <a href="https://www.instagram.com/imsanketbodke/?hl=en"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+      </p>
+    </div>
+    <div class="links">
+      <h4>Quick links</h4>
+      <p><a href="#">Home</a></p>
+      <p><a href="#">About</a></p>
+      <p><a href="#">Blogs</a></p>
+      <p><a href="#">Contact</a></p>
+    </div>
+    <div class="details">
+      <h4 class="address">Address</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur <br />
+        adipisicing elit. Cupiditate, qui!
+      </p>
+      <h4 class="mobile">Mobile</h4>
+      <p><a href="#">+9112233445</a></p>
+      <h4 class="mail">Email</h4>
+      <p><a href="#">vuelamp@gmail.com</a></p>
+    </div>
+  </div>
+  <footer>
+    <hr />
+    &copy; 2021 VueLamp 
+  </footer>
+
+</div>
+</div>
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
